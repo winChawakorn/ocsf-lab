@@ -1,0 +1,33 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 158 ciObject found
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/Class isArray ()Z 2049 1 256 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 3305 1 1673 0 -1
+ciMethod java/lang/Class getName0 ()Ljava/lang/String; 513 1 64 0 -1
+ciMethod java/io/ObjectOutputStream replaceObject (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeObject0 (Ljava/lang/Object;Z)V 2049 1 256 0 -1
+ciMethod java/io/ObjectOutputStream writeNull ()V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeHandle (I)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeClass (Ljava/lang/Class;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeClassDesc (Ljava/io/ObjectStreamClass;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeString (Ljava/lang/String;Z)V 2049 1 256 0 -1
+ciMethod java/io/ObjectOutputStream writeArray (Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeEnum (Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeOrdinaryObject (Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream setBlockDataMode (Z)Z 2057 1 513 0 -1
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream drain ()V 2057 1 513 0 -1
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream writeByte (I)V 2049 1 256 0 -1
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream writeInt (I)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream$HandleTable assign (Ljava/lang/Object;)I 2049 1 256 0 -1
+ciMethod java/io/ObjectOutputStream$HandleTable lookup (Ljava/lang/Object;)I 3073 2913 512 0 -1
+ciMethod java/io/ObjectOutputStream$ReplaceTable assign (Ljava/lang/Object;Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream$ReplaceTable lookup (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/io/ObjectOutputStream$ReplaceTable grow ()V 0 0 1 0 -1
+ciMethodData java/lang/Class getName ()Ljava/lang/String; 2 1673 orig 264 8 193 72 117 0 0 0 0 224 198 236 24 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157 1 0 0 97 39 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 6 0x60007 0x4df 0x30 0xd 0xb0002 0xd oops 0
+ciMethod java/io/ObjectStreamClass lookup (Ljava/lang/Class;Z)Ljava/io/ObjectStreamClass; 2057 1 257 0 -1
+ciMethod java/io/ObjectStreamClass requireInitialized ()V 2049 1 256 0 -1
+ciMethod java/io/ObjectStreamClass hasWriteReplaceMethod ()Z 2049 1 256 0 -1
+ciMethod java/io/ObjectStreamClass invokeWriteReplace (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/io/ObjectOutputStream$BlockDataOutputStream setBlockDataMode (Z)Z 1 513 orig 264 8 193 72 117 0 0 0 0 24 204 33 25 0 0 0 0 216 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 8 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 136 0 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 17 0x50007 0x100 0x20 0x0 0xe0005 0x0 0x1bb6df10 0x100 0x0 0x0 0x1a0007 0x80 0x38 0x80 0x1e0003 0x80 0x18
